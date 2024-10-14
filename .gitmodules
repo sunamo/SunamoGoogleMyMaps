@@ -1,0 +1,3 @@
+[submodule "SunamoGoogleMyMaps"]
+	path = SunamoGoogleMyMaps
+	url = git@github.com:sunamo/SunamoGoogleMyMaps.git
