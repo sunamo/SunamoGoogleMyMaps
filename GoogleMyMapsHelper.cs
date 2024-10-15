@@ -1,4 +1,3 @@
-
 namespace SunamoGoogleMyMaps;
 using SunamoGoogleMyMaps.Data;
 using System.Text;
