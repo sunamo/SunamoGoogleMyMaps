@@ -1,7 +1,5 @@
 global using SunamoGoogleMyMaps;
 global using SunamoGoogleMyMaps.Data;
-global using SunamoGoogleMyMaps._sunamo.SunamoExceptions;
-global using SunamoGoogleMyMaps._sunamo.SunamoValues;
 global using System;
 global using System.Linq;
 global using System.Text;

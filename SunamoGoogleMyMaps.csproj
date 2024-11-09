@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Description>Generate to import into Google My Maps and more</Description>
-    <Version>24.10.4.1</Version>
+    <Version>24.11.9.1</Version>
     <PackageReleaseNotes>Added method</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
