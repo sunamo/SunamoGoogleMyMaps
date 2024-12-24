@@ -5,14 +5,12 @@
 /// </summary>
 public class ABSGoogleMyMaps : ABTGoogleMyMaps<string, string>
 {
-    public ABSGoogleMyMaps()
+    public ABSGoogleMyMaps() : base(string.Empty, string.Empty)
     {
         A = B = string.Empty;
     }
 
-    public ABSGoogleMyMaps(string a, string b)
+    public ABSGoogleMyMaps(string a, string b) : base(a, b)
     {
-        A = a;
-        B = b;
     }
 }
