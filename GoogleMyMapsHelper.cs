@@ -1,6 +1,4 @@
 namespace SunamoGoogleMyMaps;
-using SunamoGoogleMyMaps.Data;
-using System.Text;
 
 public class GoogleMyMapsHelper
 {
@@ -17,10 +15,8 @@ public class GoogleMyMapsHelper
         {
             sb.AppendLine(item.Key + "\t" + item.Value);
         }
-
         return sb.ToString();
     }
-
     /// <summary>
     /// Will be implemented
     /// </summary>
