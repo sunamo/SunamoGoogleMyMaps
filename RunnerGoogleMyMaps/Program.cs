@@ -1,4 +1,4 @@
-﻿using SunamoGoogleMyMaps.Tests;
+using SunamoGoogleMyMaps.Tests;
 
 namespace RunnerGoogleMyMaps;
 
