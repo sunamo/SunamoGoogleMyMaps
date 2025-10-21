@@ -1,3 +1,6 @@
+// EN: Variable names have been checked and replaced with self-descriptive names
+// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+
 namespace SunamoGoogleMyMaps;
 
 public class GoogleMyMapsHelper
@@ -10,12 +13,12 @@ public class GoogleMyMapsHelper
     /// <returns></returns>
     public static string CreateExportForGoogleMyMaps(Dictionary<string, string> rows)
     {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         foreach (var item in rows)
         {
-            sb.AppendLine(item.Key + "\t" + item.Value);
+            stringBuilder.AppendLine(item.Key + "\t" + item.Value);
         }
-        return sb.ToString();
+        return stringBuilder.ToString();
     }
     /// <summary>
     /// Will be implemented
