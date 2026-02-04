@@ -1,23 +1,20 @@
 namespace SunamoGoogleMyMaps;
 
 /// <summary>
-/// EN: Helper class for creating exports compatible with Google My Maps import format
-/// CZ: Pomocná třída pro vytváření exportů kompatibilních s formátem Google My Maps importu
+/// Helper class for creating exports compatible with Google My Maps import format
 /// </summary>
 public class GoogleMyMapsHelper
 {
     /// <summary>
-    /// EN: Creates a tab-delimited export string from a dictionary of key-value pairs for Google My Maps import.
-    ///     The first element represents the header (typically "Name" and "Address").
-    /// CZ: Vytvoří tabulátorem oddělený exportní řetězec ze slovníku klíč-hodnota párů pro import do Google My Maps.
-    ///     První prvek představuje záhlaví (typicky "Name" a "Address").
+    /// Creates a tab-delimited export string from a dictionary of key-value pairs for Google My Maps import.
+    /// The first element represents the header (typically "Name" and "Address").
     /// </summary>
-    /// <param name="data">Dictionary containing key-value pairs where key is the name and value is the address or description</param>
+    /// <param name="dictionary">Dictionary containing key-value pairs where key is the name and value is the address or description</param>
     /// <returns>Tab-delimited string suitable for Google My Maps import</returns>
-    public static string CreateExportForGoogleMyMaps(Dictionary<string, string> data)
+    public static string CreateExportForGoogleMyMaps(Dictionary<string, string> dictionary)
     {
         StringBuilder stringBuilder = new StringBuilder();
-        foreach (var entry in data)
+        foreach (var entry in dictionary)
         {
             stringBuilder.AppendLine(entry.Key + "\t" + entry.Value);
         }
@@ -25,15 +22,14 @@ public class GoogleMyMapsHelper
     }
 
     /// <summary>
-    /// EN: Creates a Google My Maps compatible string from address row data. This method will be implemented in future versions.
-    /// CZ: Vytvoří řetězec kompatibilní s Google My Maps z dat řádku adresy. Tato metoda bude implementována v budoucích verzích.
+    /// Creates a Google My Maps compatible string from address row data. This method will be implemented in future versions.
     /// </summary>
     /// <param name="city">The city name</param>
-    /// <param name="clipboard">Clipboard content containing address data</param>
+    /// <param name="addressData">Clipboard content containing address data</param>
     /// <param name="isAllowingEmptyCity">Whether to allow empty city values</param>
     /// <returns>Formatted string for Google My Maps</returns>
     /// <exception cref="NotImplementedException">This method is not yet implemented</exception>
-    public static string CreateForGoogleMyMapsFromAddressRow(string city, string clipboard, bool isAllowingEmptyCity)
+    public static string CreateForGoogleMyMapsFromAddressRow(string city, string addressData, bool isAllowingEmptyCity)
     {
         throw new NotImplementedException();
     }
