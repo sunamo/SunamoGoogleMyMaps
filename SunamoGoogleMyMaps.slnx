@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoGoogleMyMaps.Tests\\SunamoGoogleMyMaps.Tests.csproj" />
+  <Project Path="RunnerGoogleMyMaps\\RunnerGoogleMyMaps.csproj" />
+  <Project Path="SunamoGoogleMyMaps\SunamoGoogleMyMaps.csproj" />
+</Solution>
