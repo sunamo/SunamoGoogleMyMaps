@@ -7,7 +7,7 @@ internal class Program
 {
     static void Main()
     {
-        GoogleMyMapsHelperTests t = new GoogleMyMapsHelperTests();
+        GoogleMyMapsHelperTests t = new();
         t.CreateExportForGoogleMyMapsTest();
     }
 }
