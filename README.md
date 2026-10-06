@@ -1,5 +1,10 @@
 # SunamoGoogleMyMaps
 
+## Short description
+
+Knihovna generující data pro import do Google My Maps. Umožňuje z vlastních dat sestavit soubory vhodné pro import do mapy. Obsahuje Runner a testy.
+
+
 Generate to import into Google My Maps and more
 
 ## Overview
