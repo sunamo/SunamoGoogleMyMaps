@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoGoogleMyMaps.Tests;
 using TextCopy;
 
