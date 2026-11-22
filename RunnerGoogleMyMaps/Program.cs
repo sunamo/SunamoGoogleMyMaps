@@ -1,4 +1,3 @@
-// variables names: ok
 using SunamoGoogleMyMaps.Tests;
 
 namespace RunnerGoogleMyMaps;
